@@ -1,0 +1,5 @@
+http://127.0.0.1:8000/api/notes - 200  ОК - все замметки
+http://127.0.0.1:8000/api/notes?id_user=abc - 400 Bed Request
+http://127.0.0.1:8000/api/notes?id_user=99999 - 200  + пустой массив
+http://127.0.0.1:8000/api/notes/GET%20/api/notes?%20id_user=2 - 404 
+http://127.0.0.1:8000/api/notes?error=0 - 500 
